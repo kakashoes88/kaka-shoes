@@ -49,18 +49,41 @@ nav a:hover{
 
 .hero{
     background:
-    linear-gradient(rgba(0,0,0,.60),rgba(0,0,0,.60)),
+    linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
     url("images/banner/banner.jpg");
 
-    background-size:cover;
-    background-position:center;
-    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 
-    color:white;
-    text-align:center;
-    padding:180px 20px;
+    min-height: 700px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    color: white;
+    padding: 40px 20px;
 }
 
+.hero h1{
+    font-size:60px;
+    color:#d4af37;
+    margin-bottom:15px;
+}
+
+.hero h2{
+    font-size:30px;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:20px;
+    margin-bottom:30px;
+    max-width:700px;
+}
 .hero h1{
     font-size:52px;
     color:#d4af37;
