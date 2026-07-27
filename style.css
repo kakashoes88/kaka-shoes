@@ -108,3 +108,37 @@ nav a{
 .product h3{
     margin-top:15px;
 }
+.category-menu{
+    text-align:center;
+    padding:50px 20px;
+    background:#fff;
+}
+
+.category-menu h2{
+    font-size:32px;
+    margin-bottom:30px;
+    font-weight:700;
+}
+
+.category-buttons{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:15px;
+}
+
+.category-buttons a{
+    background:#111;
+    color:white;
+    padding:14px 25px;
+    border-radius:50px;
+    text-decoration:none;
+    font-weight:600;
+    transition:0.3s;
+}
+
+.category-buttons a:hover{
+    background:#d4af37;
+    color:#111;
+    transform:translateY(-5px);
+}
