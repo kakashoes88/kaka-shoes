@@ -48,10 +48,17 @@ nav a:hover{
 }
 
 .hero{
-    background:#111;
+    background:
+    linear-gradient(rgba(0,0,0,.60),rgba(0,0,0,.60)),
+    url("images/banner/banner.jpg");
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+
     color:white;
     text-align:center;
-    padding:100px 20px;
+    padding:180px 20px;
 }
 
 .hero h1{
